@@ -1,0 +1,63 @@
+.container {
+    position: relative;
+    width: 375px;
+    height: 816px;
+    background: #ffffff;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 178px;
+    background: linear-gradient(90deg, #e21a1a 0%, #c07f20 100%);
+}
+
+.main {
+    position: absolute;
+    top: 178px;
+    left: 25px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 112px;
+    left: 0px;
+    bottom: 0;
+    background: linear-gradient(90deg, #ee3b37 0%, #e7af23 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 325px;
+    height: 66px;
+    border-radius: 6px;
+    padding: 12px 0px;
+    margin-top: 12px;
+}
+
+.terms {
+    width: 325px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    line-height: 150%;
+    color: #101828;
+}
+
+h1,
+p {
+    font-family: "Plus Jakarta Sans";
+}
+
+label {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 700;
+    font-size: 12px;
+}
